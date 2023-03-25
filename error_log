@@ -1,0 +1,93 @@
+[23-Mar-2023 22:21:07 UTC] PHP Warning:  Undefined array key "subject" in /home/f6726250/public_html/sentMail.php on line 9
+[23-Mar-2023 22:29:15 UTC] PHP Warning:  Undefined array key "subject" in /home/f6726250/public_html/sentMail.php on line 9
+[23-Mar-2023 22:29:33 UTC] PHP Warning:  Undefined array key "subject" in /home/f6726250/public_html/sentMail.php on line 9
+[23-Mar-2023 22:35:08 UTC] PHP Warning:  Undefined array key "subject" in /home/f6726250/public_html/sentMail.php on line 9
+[23-Mar-2023 22:35:14 UTC] PHP Warning:  Undefined array key "subject" in /home/f6726250/public_html/sentMail.php on line 9
+[23-Mar-2023 22:41:16 UTC] PHP Warning:  Undefined array key "subject" in /home/f6726250/public_html/sentMail.php on line 9
+[23-Mar-2023 22:41:21 UTC] PHP Warning:  Undefined variable $success in /home/f6726250/public_html/contact.php on line 110
+[23-Mar-2023 22:43:28 UTC] PHP Warning:  Undefined array key "subject" in /home/f6726250/public_html/sentMail.php on line 9
+[23-Mar-2023 22:43:30 UTC] PHP Warning:  Undefined variable $success in /home/f6726250/public_html/contact.php on line 110
+[23-Mar-2023 22:43:54 UTC] PHP Warning:  Undefined variable $failed in /home/f6726250/public_html/contact.php on line 111
+[23-Mar-2023 23:00:52 UTC] PHP Warning:  Undefined variable $failed in /home/f6726250/public_html/contact.php on line 112
+[23-Mar-2023 23:01:12 UTC] PHP Warning:  Undefined variable $failed in /home/f6726250/public_html/contact.php on line 112
+[23-Mar-2023 23:15:44 UTC] PHP Warning:  Undefined variable $failed in /home/f6726250/public_html/contact.php on line 112
+[23-Mar-2023 23:16:30 UTC] PHP Warning:  Undefined variable $success in /home/f6726250/public_html/contact.php on line 111
+[23-Mar-2023 23:22:39 UTC] PHP Warning:  Undefined variable $success in /home/f6726250/public_html/contact.php on line 111
+[23-Mar-2023 23:22:39 UTC] PHP Warning:  Undefined variable $failed in /home/f6726250/public_html/contact.php on line 112
+[23-Mar-2023 23:22:44 UTC] PHP Warning:  Undefined variable $success in /home/f6726250/public_html/contact.php on line 111
+[23-Mar-2023 23:22:44 UTC] PHP Warning:  Undefined variable $failed in /home/f6726250/public_html/contact.php on line 112
+[23-Mar-2023 23:23:15 UTC] PHP Warning:  Undefined variable $success in /home/f6726250/public_html/contact.php on line 111
+[23-Mar-2023 23:23:29 UTC] PHP Warning:  Undefined variable $success in /home/f6726250/public_html/contact.php on line 111
+[23-Mar-2023 23:29:54 UTC] PHP Warning:  Undefined variable $success in /home/f6726250/public_html/contact.php on line 111
+[23-Mar-2023 23:31:58 UTC] PHP Warning:  Undefined variable $success in /home/f6726250/public_html/contact.php on line 111
+[23-Mar-2023 23:32:25 UTC] PHP Warning:  Undefined variable $success in /home/f6726250/public_html/contact.php on line 111
+[23-Mar-2023 23:32:36 UTC] PHP Warning:  Undefined variable $success in /home/f6726250/public_html/contact.php on line 111
+[23-Mar-2023 23:33:37 UTC] PHP Warning:  Undefined variable $success in /home/f6726250/public_html/contact.php on line 111
+[23-Mar-2023 23:35:47 UTC] PHP Warning:  Undefined variable $success in /home/f6726250/public_html/contact.php on line 111
+[23-Mar-2023 23:35:47 UTC] PHP Warning:  Undefined variable $failed in /home/f6726250/public_html/contact.php on line 112
+[23-Mar-2023 23:37:08 UTC] PHP Warning:  Undefined variable $success in /home/f6726250/public_html/contact.php on line 111
+[23-Mar-2023 23:38:04 UTC] PHP Warning:  Undefined variable $success in /home/f6726250/public_html/contact.php on line 111
+[23-Mar-2023 23:38:26 UTC] PHP Warning:  Undefined variable $success in /home/f6726250/public_html/contact.php on line 111
+[23-Mar-2023 23:41:01 UTC] PHP Parse error:  Unclosed '{' on line 3 in /home/f6726250/public_html/sentMail.php on line 42
+[23-Mar-2023 23:41:11 UTC] PHP Parse error:  Unclosed '{' on line 3 in /home/f6726250/public_html/sentMail.php on line 42
+[23-Mar-2023 23:41:32 UTC] PHP Parse error:  Unclosed '{' on line 3 in /home/f6726250/public_html/sentMail.php on line 42
+[23-Mar-2023 23:41:54 UTC] PHP Parse error:  Unclosed '{' on line 3 in /home/f6726250/public_html/sentMail.php on line 42
+[23-Mar-2023 23:43:46 UTC] PHP Parse error:  Unmatched '}' in /home/f6726250/public_html/sentMail.php on line 41
+[23-Mar-2023 23:43:48 UTC] PHP Parse error:  Unmatched '}' in /home/f6726250/public_html/sentMail.php on line 41
+[23-Mar-2023 23:43:51 UTC] PHP Parse error:  Unmatched '}' in /home/f6726250/public_html/sentMail.php on line 41
+[23-Mar-2023 23:43:56 UTC] PHP Parse error:  Unmatched '}' in /home/f6726250/public_html/sentMail.php on line 41
+[23-Mar-2023 23:44:21 UTC] PHP Warning:  Undefined variable $success in /home/f6726250/public_html/contact.php on line 111
+[23-Mar-2023 23:44:21 UTC] PHP Warning:  Undefined variable $failed in /home/f6726250/public_html/contact.php on line 112
+[23-Mar-2023 23:45:07 UTC] PHP Warning:  Undefined variable $success in /home/f6726250/public_html/contact.php on line 111
+[23-Mar-2023 23:51:14 UTC] PHP Warning:  Undefined variable $success in /home/f6726250/public_html/contact.php on line 111
+[23-Mar-2023 23:51:57 UTC] PHP Warning:  Undefined variable $success in /home/f6726250/public_html/contact.php on line 111
+[23-Mar-2023 23:53:07 UTC] PHP Warning:  Undefined variable $success in /home/f6726250/public_html/contact.php on line 111
+[24-Mar-2023 00:17:22 UTC] PHP Warning:  Undefined variable $success in /home/f6726250/public_html/contact.php on line 111
+[24-Mar-2023 00:17:46 UTC] PHP Warning:  Undefined variable $success in /home/f6726250/public_html/contact.php on line 111
+[24-Mar-2023 00:20:31 UTC] PHP Warning:  Undefined variable $success in /home/f6726250/public_html/contact.php on line 111
+[24-Mar-2023 00:20:56 UTC] PHP Warning:  Undefined variable $success in /home/f6726250/public_html/contact.php on line 111
+[24-Mar-2023 00:23:11 UTC] PHP Warning:  Undefined variable $success in /home/f6726250/public_html/contact.php on line 111
+[24-Mar-2023 00:23:11 UTC] PHP Warning:  Undefined variable $failed in /home/f6726250/public_html/contact.php on line 112
+[24-Mar-2023 00:23:35 UTC] PHP Warning:  Undefined variable $failed in /home/f6726250/public_html/contact.php on line 112
+[24-Mar-2023 00:36:31 UTC] PHP Warning:  Undefined variable $failed in /home/f6726250/public_html/contact.php on line 112
+[24-Mar-2023 00:37:16 UTC] PHP Warning:  Undefined variable $success in /home/f6726250/public_html/contact.php on line 111
+[24-Mar-2023 00:37:39 UTC] PHP Warning:  Undefined variable $success in /home/f6726250/public_html/contact.php on line 111
+[24-Mar-2023 00:37:39 UTC] PHP Warning:  Undefined variable $failed in /home/f6726250/public_html/contact.php on line 112
+[24-Mar-2023 00:38:05 UTC] PHP Warning:  Undefined variable $success in /home/f6726250/public_html/contact.php on line 111
+[24-Mar-2023 00:44:47 UTC] PHP Warning:  Undefined variable $success in /home/f6726250/public_html/contact.php on line 111
+[24-Mar-2023 00:44:47 UTC] PHP Warning:  Undefined variable $failed in /home/f6726250/public_html/contact.php on line 112
+[24-Mar-2023 00:45:08 UTC] PHP Warning:  Undefined variable $success in /home/f6726250/public_html/contact.php on line 111
+[24-Mar-2023 00:45:08 UTC] PHP Warning:  Undefined variable $success in /home/f6726250/public_html/contact.php on line 111
+[24-Mar-2023 00:46:22 UTC] PHP Warning:  Undefined variable $failed in /home/f6726250/public_html/contact.php on line 112
+[24-Mar-2023 01:41:19 UTC] PHP Warning:  include(sentMail.php): Failed to open stream: No such file or directory in /home/f6726250/public_html/contact.php on line 1
+[24-Mar-2023 01:41:19 UTC] PHP Warning:  include(): Failed opening 'sentMail.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/f6726250/public_html/contact.php on line 1
+[24-Mar-2023 01:43:06 UTC] PHP Warning:  include(sentMail.php): Failed to open stream: No such file or directory in /home/f6726250/public_html/contact.php on line 1
+[24-Mar-2023 01:43:06 UTC] PHP Warning:  include(): Failed opening 'sentMail.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/f6726250/public_html/contact.php on line 1
+[24-Mar-2023 01:43:07 UTC] PHP Warning:  include(sentMail.php): Failed to open stream: No such file or directory in /home/f6726250/public_html/contact.php on line 1
+[24-Mar-2023 01:43:07 UTC] PHP Warning:  include(): Failed opening 'sentMail.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/f6726250/public_html/contact.php on line 1
+[24-Mar-2023 01:43:25 UTC] PHP Warning:  include(sentMail.php): Failed to open stream: No such file or directory in /home/f6726250/public_html/contact.php on line 1
+[24-Mar-2023 01:43:25 UTC] PHP Warning:  include(): Failed opening 'sentMail.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/f6726250/public_html/contact.php on line 1
+[24-Mar-2023 01:43:53 UTC] PHP Warning:  include(sentMail.php): Failed to open stream: No such file or directory in /home/f6726250/public_html/contact.php on line 1
+[24-Mar-2023 01:43:53 UTC] PHP Warning:  include(): Failed opening 'sentMail.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/f6726250/public_html/contact.php on line 1
+[24-Mar-2023 01:44:45 UTC] PHP Warning:  include(sentMail.php): Failed to open stream: No such file or directory in /home/f6726250/public_html/contact.php on line 1
+[24-Mar-2023 01:44:45 UTC] PHP Warning:  include(): Failed opening 'sentMail.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/f6726250/public_html/contact.php on line 1
+[24-Mar-2023 01:44:51 UTC] PHP Warning:  include(sentMail.php): Failed to open stream: No such file or directory in /home/f6726250/public_html/contact.php on line 1
+[24-Mar-2023 01:44:51 UTC] PHP Warning:  include(): Failed opening 'sentMail.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/f6726250/public_html/contact.php on line 1
+[24-Mar-2023 01:45:59 UTC] PHP Warning:  include(sentMail.php): Failed to open stream: No such file or directory in /home/f6726250/public_html/contact.php on line 1
+[24-Mar-2023 01:45:59 UTC] PHP Warning:  include(): Failed opening 'sentMail.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/f6726250/public_html/contact.php on line 1
+[24-Mar-2023 01:46:44 UTC] PHP Warning:  include(sentMail.php): Failed to open stream: No such file or directory in /home/f6726250/public_html/contact.php on line 1
+[24-Mar-2023 01:46:44 UTC] PHP Warning:  include(): Failed opening 'sentMail.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/f6726250/public_html/contact.php on line 1
+[24-Mar-2023 01:46:47 UTC] PHP Warning:  include(sentMail.php): Failed to open stream: No such file or directory in /home/f6726250/public_html/contact.php on line 1
+[24-Mar-2023 01:46:47 UTC] PHP Warning:  include(): Failed opening 'sentMail.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/f6726250/public_html/contact.php on line 1
+[25-Mar-2023 18:25:52 UTC] PHP Warning:  Undefined array key "name" in /home/f6726250/public_html/contact-form-handler.php on line 11
+[25-Mar-2023 18:25:52 UTC] PHP Warning:  Undefined array key "email" in /home/f6726250/public_html/contact-form-handler.php on line 12
+[25-Mar-2023 18:25:52 UTC] PHP Warning:  Undefined array key "message" in /home/f6726250/public_html/contact-form-handler.php on line 13
+[25-Mar-2023 18:25:52 UTC] PHP Warning:  Undefined array key "name" in /home/f6726250/public_html/contact-form-handler.php on line 11
+[25-Mar-2023 18:25:52 UTC] PHP Warning:  Undefined array key "email" in /home/f6726250/public_html/contact-form-handler.php on line 12
+[25-Mar-2023 18:25:52 UTC] PHP Warning:  Undefined array key "message" in /home/f6726250/public_html/contact-form-handler.php on line 13
+[25-Mar-2023 18:30:07 UTC] PHP Warning:  Undefined array key "name" in /home/f6726250/public_html/contact-form-handler.php on line 11
+[25-Mar-2023 18:30:07 UTC] PHP Warning:  Undefined array key "email" in /home/f6726250/public_html/contact-form-handler.php on line 12
+[25-Mar-2023 18:30:07 UTC] PHP Warning:  Undefined array key "message" in /home/f6726250/public_html/contact-form-handler.php on line 13
+[25-Mar-2023 18:30:08 UTC] PHP Warning:  Undefined array key "name" in /home/f6726250/public_html/contact-form-handler.php on line 11
+[25-Mar-2023 18:30:08 UTC] PHP Warning:  Undefined array key "email" in /home/f6726250/public_html/contact-form-handler.php on line 12
+[25-Mar-2023 18:30:08 UTC] PHP Warning:  Undefined array key "message" in /home/f6726250/public_html/contact-form-handler.php on line 13

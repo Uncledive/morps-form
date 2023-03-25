@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" style="border-radius: 58%;" type="image/x-icon" href="img/ico36.png">
+    <title>Our Agency & Kiosk</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/core.css">
+    <script src="js/core.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+      (function() {
+          // https://dashboard.emailjs.com/admin/account
+          emailjs.init('is7fIFicQ6jE93XIc');
+      })();
+  </script>
+    <script type="text/javascript">
+      window.onload = function() {
+        const btn = document.getElementById('button');
+
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+          event.preventDefault();
+
+          btn.value = 'Sending...';
+
+          const serviceID = 'default_service';
+          const templateID = 'template_63k5lfz';
+
+          emailjs.sendForm(serviceID, templateID, this)
+            .then(() => {
+              btn.value = 'Send Email';
+              alert('Sent!');
+              location.reload();
+            }, (err) => {
+              btn.value = 'Send Email';
+              alert(JSON.stringify(err));
+            });
+        });
+      }
+  </script>
+    
+  </head>
+  <body>
+    <!-- Green drop down navbar-->
+    <ul class="container-fluid nav justify-content-center subNav">
+      <!-- <li class="nav-item topNav">
+        <a class="nav-link" href="tel:0828242430">
+          <i class="fa fa-mobile" aria-hidden="true"></i>
+          
+          0828242430
+        </a>
+      </li> -->
+      <li class="nav-item topNav">
+        <a class="nav-link" href="tel:0125497948">
+          <i class="fa fa-phone" aria-hidden="true"></i>
+          0125497948
+        </a>
+      </li>
+
+      <li class="nav-item topNav">
+        <a class="nav-link" href="mailto:info@moropsprojects.co.za">
+          <i class="fa fa-envelope" aria-hidden="true"></i>
+          info@moropsprojects.co.za
+        </a>
+      </li>
+    </ul>
+
+     <!--2nd Nav with logo-->
+     <nav id="myNav" class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img id="logo2" class="navbar-brand" height="60" src="img\Logo.png" style="object-fit: containß;" href="#"></img>
+        </a>
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+            <li class="nav-item">
+              <a class="nav-link fw-lighter" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-lighter" href="/dstv.html">DSTV</a>
+            </li>
+              <li class="nav-item">
+                <a class="nav-link fw-lighter" aria-current="page" href="/about.html">About Us</a>
+              </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-lighter active" href="/contact.html">Contact Us</a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+ 
+
+<div class="container" style="padding-top: 100px;">
+  <div class="row">
+    <div class="col-sm-4">
+      <h2>Get in touch!</h2>
+      <hr>
+      <address>
+        <i class="fa fa-envelope pt-1" style="float:left; display:inline-block; clear:both;"  aria-hidden="true"></i> <a  style="float: left; display:inline-block; width: 90%; padding-left: 25px;" href="mailto:info@moropsprojects.coza"> info@moropsprojects.co.za</a><br><br>
+        <i class="fa fa-phone pt-1" style="float:left; display:inline-block; clear:both; padding-right: 4px;"  aria-hidden="true"></i> <a style="float: left; display:inline-block; width: 90%; padding-left: 25px;" href="tel:0125497948"> 0125497948</a> <br> <br>
+        <i class="fa fa-map pt-2" style="float:left; display:inline-block; clear:both;" aria-hidden="true"></i>
+        <a  style="float: left; display:inline-block; width: 90%; padding-left: 25px;" href="https://goo.gl/maps/qE8tEsmC9VUEL74E7">Akasia Gables <br>430 Heinrich Avenue <br>Karenpark, 0118</a>
+      </address>
+    </div>
+      
+    <div class="col-sm-8 contact-form">
+      <form class="row g-3" action="https://formsubmit.co/mafa@moropsprojects.co.za" method="POST">
+        <!-- Honeypot -->
+        <input type="text" name="_honey" style="display: none;">
+
+        <!-- Disable Captcha -->
+        <input type="hidden" name="_captcha" value="false">
+
+        <input type="hidden" name="_next" value="https://haydn5.github.io/formsubmitdemo/success.html" >
+
+        <div class="col-md-6">
+          <label for="firstName" class="form-label">First Name</label>
+          <input type="text" class="form-control" name="name" id="firstName" required>
+        </div>
+        <div class="col-md-6">
+          <label for="lastName" class="form-label">Last Name</label>
+          <input type="text" class="form-control" name="Last&nbsp;Name" id="lastName" required>
+        </div>
+        <div class="col-md-8">
+          <label for="emailInfo" class="form-label">E-mail</label>
+          <input type="email" class="form-control" name="email" id="emailInfo" required>
+        </div>
+        <div class="col-md-4">
+          <label for="phoneNumber" class="form-label">Phone Number</label>
+          <input type="text" class="form-control" name="phone" id="phoneNumber" placeholder=" 012 345 6789">
+        </div>
+        <div class="col-md-12">
+          <label for="Message" class="form-label">Message</label>
+          <textarea class="form-control" id="Message" name="comments,&nbsp;questions" rows="3" required></textarea>
+        </div>
+        <div class="col-md-12">
+          <button type="submit" class="btn btn-primary pull-right" onclick="this.classList.toggle('button--loading')" id="button"><span class="button__text">Submit</span></button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+        <!--footer-->
+        <footer class="container-fluid bg-grey py-5" style="margin-top: 200px; background: #172601; color: #fff;">
+          <div class="container">
+             <div class="row">
+                <div class="col-md-6">
+                   <div class="row">
+                      <div class="col-md-6 ">
+                         <div class="logo-part">
+                          <h4 class="text-uppercase pt-5">Moropane Projects</h4>
+                            <!-- <img src="/img/Logo.png"  height="200px" class="w-50 logo-footer" style="object-fit:contain;box-shadow: 10px 10px 5px #ccc;"> -->
+                         </div>
+                      </div>
+                      <div class="col-md-6 px-4">
+                         <h6> About Company</h6>
+                         <p>Where customer service is not a department, it is everyone's job.</p>
+                         <a href="tel:0125490678" class="btn-footer"> Call Us </a><br>
+                      </div>
+                   </div>
+                </div>
+                <div class="col-md-6">
+                   <div class="row">
+                      <div class="col-md-6 px-4">
+                         <h6> Helpful Links</h6>
+                         <div class="row ">
+                            <div class="col-md-6">
+                               <ul>
+                                  <li> <a href="/"> Home</a> </li>
+                                  <li><a href="/dstv.html">DSTV</a></li>
+                                  <li> <a href="/about.html"> About</a> </li>
+                                  <li> <a href="/contact.html"> Contact</a> </li>
+                               </ul>
+                            </div>
+                           
+                         </div>
+                      </div>
+                      <div class="col-md-6 ">
+                        <h6>Get In Touch With Us </h6>
+                        <div class="social">
+                           <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                           <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                           <a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         </div>
+       </footer>
+             <div class="container-fluid">
+               <div class="row">
+                 <div class="col-lg">
+                   <p class="fw-lighter text-center" style="font-size: 12px; padding-top: 1rem; padding-bottom: 1rem;">&copy 2023 MOROPANE PROJECTS. </p>
+                 </div>
+               </div>
+             </div>
+          
+                <a href="#" class="top" style="float: right;">&#8593;</a>
+              
+          
+  
+      <style>
+        h4 {
+          color: #72A603;
+        }
+      </style>
+
+<script type="text/javascript"
+src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+<script type="text/javascript">
+emailjs.init('is7fIFicQ6jE93XIc')
+</script>
+      
+  
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  
+      <script src="js/core.js"></script>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  
+  
+    </body>
+  </html>
